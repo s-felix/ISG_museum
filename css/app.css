@@ -1,0 +1,541 @@
+body.index {
+  background: url(../img/Backgroundindex.png) center fixed;
+  background-color: #0a1169;
+  background-position: center;
+  border: 16px solid #3D439B;
+
+}
+
+button {
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 9px 14px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "futura pt demi", futura, sans serif;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+	font-size: 25px;
+	color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+
+}
+
+h2 {
+  font-size: 19px;
+  color: white;
+  font-family: "futura pt demi", futura, sans serif;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 35px;
+}
+
+p {
+	font-size: 17px;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+ul#menu {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  margin-left: 0;
+}
+
+
+/* Header */
+
+header {
+  padding-top: 25px;
+  padding-bottom: 24px;
+  text-align: center;
+  background: white;
+
+}
+
+.navbar {
+  background-color: #BAB9B9;
+  font-family: "futura pt demi", futura, sans serif;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  position: relative;
+  top: 24px;
+}
+
+.reveal {
+  background-color: #BAB9B9;
+  width: calc(100% - 32px);
+  position: absolute;
+  top: 115px !important;
+  margin-left: 16px;
+  min-height: 500px;
+  max-height: 500px;
+}
+
+.reveal .grid-container {
+  padding: 0;
+}
+
+::placeholder {
+  color: white;
+  opacity: 70%;
+}
+
+div.reveal-overlay {
+  background: none;
+}
+
+.reveal h3 {
+  font-size: 20px;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -6px;
+
+}
+.reveal a {
+  font-size: 20px;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+.callout {
+  background: transparent;
+  border: 0px;
+  margin-top: 60px;
+  font-family: "futura pt demi", futura, sans serif;
+}
+
+.callout input.button {
+  font-family: "futura pt demi", futura, sans serif;
+}
+button.close-button {
+  border-width: 0px;
+  margin-top: -10px;
+}
+
+
+span {
+  color: white;
+}
+
+/* Hero */
+
+.hero {
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  text-align: center;
+}
+
+.content p {
+  text-align: left;
+}
+
+.content button {
+  display: block;
+  margin: auto;
+
+}
+
+.hero img {
+  top: 25px;
+  filter: drop-shadow( 0px 3px 3px);
+
+}
+
+/* Meet Isabella */
+
+.meetisabella img{
+  margin-top: 1rem;
+  width: 100%;
+  filter: drop-shadow( 0px 3px 3px);
+}
+
+.content1{
+  top: 70%;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.content1 h1 {
+  margin-top: 1rem;
+}
+
+.content1 button {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.content1 p {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+
+/* Boston Apollo */
+
+.bostonsapollo img {
+  position: relative;
+  filter: drop-shadow( 0px 3px 3px);
+}
+
+.content2{
+  top: 70%;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.content2 h1 {
+  margin-top: 1rem;
+}
+
+.content2 button {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.content2 p {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+
+/* Footer */
+
+footer {
+  background: #3D439B;
+}
+
+address {
+  font-size: 17px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+footer form {
+  padding: 20px 10px 20px 10px;
+}
+
+input.input-group-field {
+  background-color: transparent;
+  border-color: white;
+}
+
+input.button {
+  background-color: transparent;
+  border-color: white;
+  margin-left: 10px;
+}
+
+ul {
+  padding-top: 50px;
+  color: white;
+}
+
+footer p {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+footer img {
+width: 15%;
+padding: 10px;
+margin-left: 10px;
+margin-top: -80px;
+}
+
+
+/* Exhibits Page */
+
+
+body.exhibits {
+  background: url(../img/exhibitBI.png) center fixed;
+  background-color: #F58220;
+  background-position: center;
+  border: 16px solid #F58220;
+
+}
+
+.exhibits h1 {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.exhibits h4 {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.exhibits h2 {
+  font-weight: 700;
+  font-family: futura-pt, sans-serif;
+}
+
+.exhibits h5 {
+  font-size: 15px;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+/* Art */
+
+
+.art {
+  position: relative;
+}
+
+.art img {
+  width: 100%;
+}
+
+.art h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.content3 {
+  position: absolute;
+  top: 15px;
+  margin: 0;
+}
+
+.content4 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.content4 button {
+  margin-top: 20px;
+}
+
+
+/* Boston's Apollo */
+
+
+.bapollo {
+  position: relative;
+}
+
+.content5 {
+  position: absolute;
+  top: 15px;
+  margin: 0;
+}
+
+.content5 h1 {
+  margin-left: 20px;
+}
+
+.bapollo button {
+  margin-top: 25px;
+}
+
+.content6 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+
+/* Adam Pendleton */
+
+
+.pendleton {
+  position: relative;
+}
+
+.content7 {
+  position: absolute;
+  top: 15px;
+  margin: 0;
+}
+
+.content8 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.content7 h4{
+text-shadow: 0px 3px 6px #000000;
+margin-left: 20px;
+}
+
+.content7 h1{
+text-shadow: 0px 3px 6px #000000;
+margin-left: 20px;
+}
+
+
+/* Lorraine O'Grady */
+
+
+.grady {
+  position: relative;
+}
+
+.content9 {
+  position: absolute;
+  top: 15px;
+  margin: 0;
+}
+
+.content10 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.grady h4 {
+margin-left: 20px
+}
+
+.grady h1 {
+margin-left: 20px;
+}
+
+
+/* Exhibits Footer */
+
+
+.exhibits footer {
+  background-color: #F58220; 
+}
+
+
+/* Detail Page */
+
+
+body.detail {
+  background: url(../img/detailback.png) center fixed;
+  background-color: #7B7471;
+  background-position: center;
+  border: 16px solid #938D8A;
+}
+
+.detailhero {
+  position: relative;
+}
+
+.detailhero img {
+  width: 100%
+}
+
+.content11 {
+  top: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.detailhero h4 {
+  font-size: 20px;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.detailhero h6 {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.detailhero h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.detailhero h5 {
+  font-size: 15px;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.detailhero p {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-weight: 700;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+
+.content12{
+  margin: auto;
+  text-align: center;
+}
+
+.content12 h4 {
+  padding-top: 80px;
+}
+
+.detail footer {
+  background-color: #938D8A;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
